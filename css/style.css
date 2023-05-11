@@ -1,0 +1,91 @@
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width:50px;
+}
+
+header{
+    background-color: #5aeb46;
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;    
+}
+
+.menu__item a{
+    text-decoration: none;
+}
+
+.menu__item.active a{
+    text-decoration: underline;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.imagenPrincipal{
+    background-image: url("../img/ima1.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagenPrincipal h2{
+    color: white;
+    background-color: rgba(150, 145, 194, 0.534);
+    padding-inline: 15px;
+    border-radius: 10px;
+}
+
+.imagenPrincipal p{
+    color: white;
+    text-align: center;
+}
+
+.tarjetita{
+    background-color: #20b652;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.tarjetitas{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+}
+
+.tarjetita__imagen{
+    max-width: 100%;
+}
+
+.informacion{
+    padding: 0 20px 20px 20px;
+}
+
+.pie{   
+    background-color: #1746c7;
+    color: white;
+    padding-block: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
